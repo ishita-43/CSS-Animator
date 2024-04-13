@@ -1,0 +1,26 @@
+*{
+    background-color: aquamarine;
+}
+
+.main{
+    height: 60px;
+    width:60px;
+    border: 4px solid #224e1e;
+    border-top: 4px solid aquamarine;
+    margin-top: 300px;
+    margin-left: 800px;
+    border-radius: 100%;
+    animation: main 1s linear infinite;
+}
+
+@keyframes main{
+    0%{
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    100%{
+        opacity: 1;
+        transform: rotate(360deg);
+    }
+}
